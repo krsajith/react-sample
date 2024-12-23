@@ -1,3 +1,5 @@
 npx nx g @nx/react:component src/app/hello-world/hello-world --skipTests=true
 
 npx nx g @nx/react:component src/app/hello-world/hello-world-02 --skipTests=true
+
+npx nx g @nx/react:setup-tailwind
