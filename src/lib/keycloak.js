@@ -1,8 +1,8 @@
 import Keycloak from 'keycloak-js';
 
 const keycloak = new Keycloak({
-  url: 'http://localhost:8080',
-  realm: 'taomishkk',
+  url: 'https://20.244.80.76:9443',
+  realm: 'develop',
   clientId: 'login-app'
 });
 

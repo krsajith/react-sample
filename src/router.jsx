@@ -27,7 +27,7 @@ const homeRoute = createRoute({
 
 const productsRoute = createRoute({
   getParentRoute: () => homeRoute,
-  path: '/products',
+  path: '/',
   component: ProductsPage,
 })
 

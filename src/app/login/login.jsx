@@ -5,7 +5,7 @@ import { router } from "../../router";
 
 const Login = () => {
   const [formData, setFormData] = useState({
-    username: "sajith",
+    username: "santhosh",
     password: "password",
   });
   const [error, setError] = useState("");
@@ -56,7 +56,7 @@ const Login = () => {
     console.log("Form submitted:", formData);
 
     const url =
-      "http://localhost:8080/realms/taomishkk/protocol/openid-connect/token";
+      "https://20.244.80.76:9443/realms/develop/protocol/openid-connect/token";
 
     const response = await fetch(url, {
       method: "POST",
