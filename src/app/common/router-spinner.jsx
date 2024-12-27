@@ -14,7 +14,7 @@ import { useRouterState } from "@tanstack/react-router";
 // 
 
 
-function Spinner({ show, wait }: { show?: boolean; wait?: `delay-${number}` }) {
+function Spinner({ show, wait }) {
   return (
     <div
       className={`inline-block animate-spin px-3 transition ${
@@ -25,7 +25,7 @@ function Spinner({ show, wait }: { show?: boolean; wait?: `delay-${number}` }) {
     >
       ⍥
     </div>
-  )
+  );
 }
 
 function RouterSpinner() {
