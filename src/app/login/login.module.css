@@ -1,7 +1,45 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+.login-page {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  background-color: aqua;
+}
+.container {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  flex-direction: column;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.gradient {
+  background-image: linear-gradient(
+    180deg,
+    hsl(270deg 100% 7%) 2%,
+    hsl(207deg 4% 27%) 54%,
+    hsl(141deg 3% 37%) 69%,
+    hsl(122deg 3% 45%) 78%,
+    hsl(115deg 4% 51%) 84%,
+    hsl(111deg 6% 57%) 88%,
+    hsl(109deg 8% 63%) 92%,
+    hsl(107deg 10% 67%) 94%,
+    hsl(106deg 13% 72%) 96%,
+    hsl(106deg 16% 76%) 97%,
+    hsl(105deg 21% 80%) 98%,
+    hsl(105deg 28% 84%) 99%,
+    hsl(104deg 38% 88%) 100%,
+    hsl(104deg 57% 91%) 100%,
+    hsl(104deg 100% 95%) 100%
+  );
+}
+
+.container > h2 {
+  display: block;
+}
